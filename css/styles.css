@@ -1,0 +1,164 @@
+body {
+    font-family: "Montserrat", cursive;
+}
+
+#title {
+    background-color: skyblue;
+    color: #fff;
+    text-align: left;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+h2, h3, .parts {
+    font-family: 'Montserrat';
+    font-style: normal;
+    line-height: 1.5;
+}
+h3, .parts {
+    size: 3.5rem;
+    font-display: swap;
+}
+.boss {
+    text-align: center;
+}
+.lit {
+    width: 200px;
+    border-radius: 100%;
+}
+.parts {
+    font-weight: 900;
+    font-size: auto;
+}
+.pre {
+    margin: 0 auto;
+}
+h2 {
+    font-weight: 650;
+    font-size: 3rem;
+}
+h3 {
+    font-weight: 800;
+    font-size: x-large;
+}
+p {
+    color: #8f8f8f;
+}
+.titpic {
+    width: 200px;
+    margin-left: 40%;
+}
+.titlebar {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10%;
+}
+#features {
+    color: black;
+    padding: 7% 15%;
+    position: relative;
+}
+.feature-box {
+    text-align: center;
+    padding:  5%;
+}
+#boyaks {
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    background-color: skyblue;
+    color: #fff;
+}
+#choychoy {
+    color: black;
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+}
+.ballpen {
+    width: 200px;
+    border-radius: 100%;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submits] {
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submits]:hover {
+    background-color: white;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: lightseagreen;
+}
+.bago {
+    width: 25px;
+}
+.fot {
+    color: black;
+}
+#brad {
+    background-color: skyblue;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.costumer {
+    width: 30%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.partchoi {
+    padding-bottom: 7%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1;
+}
+#footer {
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon {
+    margin: 20px 10px;
+}
+.foticon {
+    width: 50px;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .titpic {
+        position: static;
+    }
+}
